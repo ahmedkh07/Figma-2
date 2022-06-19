@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+}
+
+.first-page {
+  background-image: url(/images/background-pic.png);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  padding: 59px 0px 0px 0px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: "Laila";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32.8px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 28%;
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #ffffff;
+}
+
+.header-icons {
+  display: flex;
+  gap: 39.05px;
+}
+
+.header-icons > img {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.mid-page {
+  flex: 1;
+  display: flex;
+}
