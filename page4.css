@@ -1,0 +1,63 @@
+.page4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 72px 0px 52px 0px;
+  padding-right: 142px;
+  gap: 63px;
+}
+
+.page4-title {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54.47px;
+}
+
+.page4-content {
+  display: flex;
+  gap: 120px;
+}
+
+.map-background {
+  width: 40%;
+  flex: 1;
+}
+
+.map-background img {
+  width: 100%;
+  height: 100%;
+}
+
+.countries-card {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  flex: 1;
+}
+
+.country-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 659px;
+  height: 223px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px 0px #00000014;
+  padding-right: 47px;
+}
+
+.country-card-pic {
+  width: 34%;
+}
+
+.country-card-pic img {
+  width: 100%;
+}
+
+.country-card > div {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27.24px;
+}

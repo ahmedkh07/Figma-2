@@ -9,8 +9,6 @@ body {
 
 .hero-section {
   background-image: url(/images/background-pic.png);
-  height: 100vh;
-  width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -43,6 +41,10 @@ body {
   font-size: 1.1vw;
   line-height: 27.24px;
   color: #ffffff;
+}
+
+.nav-bar > div {
+  cursor: pointer;
 }
 
 .header-icons {
@@ -96,64 +98,4 @@ body {
   height: 60px;
   border-radius: 10px;
   background-color: #00a651;
-}
-
-/* Section */
-.service-page {
-  display: flex;
-  flex-direction: column;
-  margin: 50px 145px;
-  gap: 63px;
-}
-
-.service-title {
-  display: flex;
-  justify-content: center;
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 54.47px;
-}
-
-.service-boxes {
-  display: flex;
-  justify-content: space-around;
-  background-color: #ffffff;
-}
-.xyz {
-  min-height: 40px;
-}
-.service-box {
-  display: flex;
-  flex-direction: column;
-  width: 24%;
-  gap: 25px;
-  background-color: #f9f9f9;
-  padding: 44px 50px 20px 38px;
-}
-
-.service-box > .xyz > img {
-  width: 10%;
-}
-
-.service-box-title {
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32.68px;
-}
-.service-box-description {
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 21.79px;
-}
-
-.service-box:nth-child(2) {
-  background-color: #ffffff;
-  box-shadow: 0px 4px 16px 0px #00000026;
-}
-
-.nav-bar > div {
-  cursor: pointer;
 }
